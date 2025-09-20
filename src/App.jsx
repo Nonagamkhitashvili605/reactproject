@@ -1,20 +1,23 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+// import { useState } from "react";
+// import reactLogo from "./assets/react.svg";
+// import viteLogo from "/vite.svg";
 import "./App.css";
-import Post from "./Post";
-import { data } from "./data";
-
-function App() {
-  const [count, setCount] = useState(0);
-
+// // import Post from "./Post";
+// // import { data } from "./data";
+// import Modal from "./components/Modal";
+// import Profile from "./components/Profile";
+// import Greeting from "./assets/Greeting";
+import Modal from "./components/Modal";
+function app() {
   return (
-    <>
-      {data.map(({ userId, id, title, body }) => (
-        <Post userId={userId} id={id} title={title} body={body} />
-      ))}
-    </>
+    <div>
+      {/* <Profile isAdmin={true} />; */}
+      <Modal header="title" footer="footer">
+        <p>text</p>
+      </Modal>
+      ;
+    </div>
   );
 }
 
-export default App;
+export default app;
