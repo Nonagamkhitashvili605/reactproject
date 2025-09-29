@@ -12,6 +12,7 @@ import "./App.css";
 // import Greeting from "./components/Greeting";
 // import User from "./components/User";
 import State from "./components/state/State";
+import Counter from "./components/Counter";
 // const arr = [
 //   { name: "nona", description: "lorem," },
 //   { name: "nona", description: "lorem," },
@@ -82,6 +83,7 @@ function App() {
       ))} */}
 
       <State />
+      <Counter />
     </div>
   );
 }
