@@ -15,6 +15,9 @@ import State from "./components/state/State";
 import Counter from "./components/Counter";
 import PasswordInputWithToggle from "./components/state/PasswordInputWithToggle";
 import ColorChanger from "./components/state/ColorChanger";
+import TodoApp from "./components/TodoApp";
+import { BrowserRouter } from "react-router-dom";
+
 // const arr = [
 //   { name: "nona", description: "lorem," },
 //   { name: "nona", description: "lorem," },
@@ -88,6 +91,7 @@ function App() {
       <Counter />
       <PasswordInputWithToggle />
       <ColorChanger />
+      <TodoApp />
     </div>
   );
 }

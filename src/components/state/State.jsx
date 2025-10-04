@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 // import { Data } from "./data";
 import { data } from "./../../data";
 const State = () => {
@@ -30,6 +30,12 @@ const State = () => {
   const button = () => {
     setIsClicked(true);
   };
+
+  // useEffect(() => {
+  //   // localStorage.setItem("LOCAL_STORAGE_KEY", JSON.stringify({ name: "nino" }));
+  // }, []);
+  // sessionStorage.setItem("SESSION", "new session value");
+
   return (
     <div>
       {state}
