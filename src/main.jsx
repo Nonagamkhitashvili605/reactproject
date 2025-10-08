@@ -12,16 +12,17 @@ import {
 import MainPage from "./views/MainPage.jsx";
 import Details from "./views/Details.jsx";
 import Contact from "./views/Contact.jsx";
+import NotFound from "./views/NotFound.jsx";
 
 createRoot(document.getElementById("root")).render(
   // <StrictMode>
 
   <BrowserRouter>
-    <App />
     <Routes>
       <Route path="/" element={<MainPage />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/:id" element={<Details />} />
+      <Route path="*" element={<NotFound />} />
     </Routes>
   </BrowserRouter>
   // </StrictMode>

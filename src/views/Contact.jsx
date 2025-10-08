@@ -27,7 +27,7 @@ const Contact = () => {
           <p>
             {id}-{name}
           </p>
-          <Link to={"/"}>
+          <Link to={`/${id}`} onClick={onclick}>
             <button>view more</button>
           </Link>
         </div>

@@ -88,10 +88,10 @@ function App() {
       ))} */}
 
       <State />
-      <Counter />
+      {/* <Counter />
       <PasswordInputWithToggle />
       <ColorChanger />
-      <TodoApp />
+      <TodoApp /> */}
     </div>
   );
 }
