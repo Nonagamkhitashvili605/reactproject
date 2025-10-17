@@ -17,6 +17,7 @@ import PasswordInputWithToggle from "./components/state/PasswordInputWithToggle"
 import ColorChanger from "./components/state/ColorChanger";
 import TodoApp from "./components/TodoApp";
 import { BrowserRouter } from "react-router-dom";
+import MainPage from "./views/MainPage";
 
 // const arr = [
 //   { name: "nona", description: "lorem," },
